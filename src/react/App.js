@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { channels } from '../shared/constants';
-const { ipcRenderer } = window.require('electron');
-
+const { ipcRenderer } = window; 
 
 class App extends Component {
   constructor(props) {
